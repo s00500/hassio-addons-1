@@ -33,6 +33,8 @@
         "12101/tcp": "Rhasspy Web UI + API",
         "12333/udp": "Port for HTTP POST audio stream input"
     },
+    "ingress": true,
+    "ingress_port": 12101,
     "schema": {
         "profile_dir": "str",
         "profile_name": "str",
